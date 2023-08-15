@@ -8,7 +8,7 @@ with open(file_path) as file:
     print(content)
 
 
-# # 2
+# 2
 result_path = 'logged_numbers.txt'
 with open(file_path) as file, open(result_path, 'w') as f2:
     content = file.read()
